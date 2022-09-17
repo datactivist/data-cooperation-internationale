@@ -19,9 +19,7 @@ output:
         </div>
 params:
   event: Data et politiques de coopération internationale
-  slug: 
-  session: day_1
-  module: intro_class
+  slug: data-cooperation-internationale
   image: https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png
   image_alt: Datactivist logo
 ---
