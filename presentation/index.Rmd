@@ -82,9 +82,9 @@ Sources : `r paste0("https://github.com/datactivist/", params$slug)`
 
 Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 
-*Le contenu de ces slides proviennent du cours dispensé par Cécile Le Guen ces dernières années. Je la remercie chalheureusement.*
-
 <BR>
+**Le contenu de ces diapositives provient du cours dispensé par [Cécile Le Guen](https://twitter.com/cecileLG) ces dernières années. Je la remercie chalheureusement !**
+
 <BR>
 
 .reduite[![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)]
@@ -318,13 +318,13 @@ Les premières questions commencent à se poser envers l’efficacité de l’ai
 ---
 ## Opposition de 2 figures : deux économistes américains 
 
-1.William Easterly, le sceptique
+1. **William Easterly**, le sceptique
 
 * Économiste de la banque mondiale de 1985 à 2001
 * Spécialiste des économies en voie de développement 
 * Professeur à l’université de New-York
 
-2.Jeffrey Sachs, l’optimiste
+2. **Jeffrey Sachs**, l’optimiste
 
 * Professeur à l’Université de Columbia
 * Consultant auprès du secrétaire général de l’ONU
@@ -352,7 +352,7 @@ Entre 1950 et 2001, les pays ayant reçu une aide inférieure à la moyenne ont 
 [Easterly, William. 2007. The White Man’s Burden. London: Penguin Books.](https://fr.wikipedia.org/wiki/William_Easterly)
 
 ]
-f
+
 ???
 
 => Des pays pauvres peuvent très bien s’en sortir sans cette aide. 
@@ -369,7 +369,7 @@ Difficulté à aménager l'aide (concrement`)
 
 ** Une compilation d'exemples de raté d'aides humanitaires par Sandrine Chastang **
 
-> Dans la région de Kayes, à l’ouest du Mali, arrivent quantité de médicaments envoyés par des associations d’immigrés originaires de la région, qui pensent ainsi aider leurs compatriotes. Or, de nombreux villageois pensent que ces médicaments vendus dans de belles boîtes venues de France sont plus efficaces que les génériques qui leur sont vendus par les centres de santé publique. Il arrive que les malades parcourent des kilomètres et dépensent tout leur revenu pour se procurer ces « belles boîtes », qui correspondent pourtant rarement aux prescriptions du médecin et portent préjudice au fonctionnement des centres de santé du Mali.
+> _Dans la région de Kayes, à l’ouest du Mali, arrivent quantité de médicaments envoyés par des associations d’immigrés originaires de la région, qui pensent ainsi aider leurs compatriotes. Or, de nombreux villageois pensent que ces médicaments vendus dans de belles boîtes venues de France sont plus efficaces que les génériques qui leur sont vendus par les centres de santé publique. Il arrive que les malades parcourent des kilomètres et dépensent tout leur revenu pour se procurer ces « belles boîtes », qui correspondent pourtant rarement aux prescriptions du médecin et portent préjudice au fonctionnement des centres de santé du Mali._
 
 [Chastang, Sandrine. 2008. « Toutes les manières de rater un don humanitaire ». Revue du MAUSS 31 (1): 318‑47.](https://doi.org/10.3917/rdm.031.0318.)
 
@@ -395,14 +395,13 @@ Son idée : il faut mener des projets ambitieux pour agir **simultanément** sur
 <img src="./img/sachs.png" height="400"/>
 
 [Sachs, Jeffrey. 2005. The end of poverty. New York: Penguin Press.](https://en.wikipedia.org/wiki/The_End_of_Poverty)
-
 ]
 
 ---
 ## Jeffrey Sachs
 
 Il décide de mener son propre programme d’aide au développement : 
-Millenium Village Project : http://millenniumvillages.org/ 
+[Millenium Village Project](https://www.un.org/esa/coordination/Alliance/Earth%20Institute%20-%20The%20Millennium%20Villages%20Project.htm)
 
 Objectif : Soutenir le développement d’une quinzaine de villages reculés en Afrique. 
 Agir sur tous les facteurs de la pauvreté : donner le coup de _boost_ de départ. 
@@ -418,6 +417,10 @@ En 10 ans il a récolté 600 millions de USD$ pour financer son projet (avec des
 
 Nina Munk, une journaliste a suivi son projet : elle s’est rendue régulièrement dans deux pays en Ouganda et au Kenya pour observer pendant 6 ans ce qu’il s’est passé sur place et suivre le projet de Jeffrey Sachs de près. 
 Au Kenya où l’accès à eau question de survie et dans les Zones montagneuses de l’Ouganda. 
+
+**_Takeaway_**
+
+Faire très attention aux spécifités locales et toujours associer les usages aux données quantitatives.
 
 
 ]
@@ -436,55 +439,296 @@ _Entre 14:45-22:18._
 
 ---
 
-## Esther Duflo : mesurer l’efficacité de l’aide par l’expérimentation
+## Esther Duflo
 
 .pull-left[
 
+* Chercheuse au MIT
+* Directrice du [J-PAL (Poverty Action Lab)](https://www.povertyactionlab.org/fr) 
+* Conseillère de Barack Obama
+* Assistante de recherche de Jeffrey Sachs
 
+Elle a mis au point une méthode de travail permettant de rassembler des données précises sur l’efficacité de l’aide au développement : **mesurer l’efficacité de l’aide par des expérimentations aléatoires.**
 ]
 
 .pull-right[
 
+<img src="./img/duflo.png" height="400"/>
+
 ]
 
+---
+
+## Les _Randomized Controlled Trials (RCT)_
+
+**Ou les expérimentations aléatoires.**
+
+> _« Les RCT consistent à diviser aléatoirement une population en deux groupes. Le tirage au sort des deux sous-ensembles permet de les rendre comparables pour peu qu’il y ait suffisamment d’individus. À l’un, on donne alors un “traitement” (des manuels scolaires, des vaccins, des moustiquaires, des prêts à taux bonifié…), à l’autre, rien. Au bout d’un certain temps, on observe, à partir d’indicateurs chiffrés (résultats à des tests scolaires, prévalence d’une maladie, chiffre d’affaires, etc.), s’il existe des différences entre les deux groupes, ce qui doit permettre de quantifier l’impact du “traitement”._
+
+[Jatteau, Arthur. 2016. « Faire preuve par le chiffre ? Le cas des expérimentations aléatoires en économie ». These de doctorat, Université Paris-Saclay (ComUE).](https://www.theses.fr/2016SACLN060)
+
+???
+
+À votre avis, pourquoi recourir à une telle méthode ?
+
+---
+
+## Les _Randomized Controlled Trials (RCT)_
+
+.pull-left[
+
+<img src="./img/kenya2.png" height="300"/>
+
+[Site du J-PAL](https://www.povertyactionlab.org/evaluation/farmers-and-fear-crime-improving-agricultural-productivity-through-farm-protection-kenya)
+]
+
+.pull-right[
+
+
+<img src="./img/kenya1.png" height="300"/>
+
+[Dyer, Julian. 2022. « The Fruits (and Vegetables) of Crime ». SSRN Electronic Journal.](https://www.povertyactionlab.org/sites/default/files/research-paper/Farm%20Theft%20and%20Social%20Relationships%20Evidence%20from%20Maasai%20Farm%20Watchmen.pdf)
+
+]
+
+---
+
+## Esther Duflo : chaire statutaire du Collège de France 2022-2023
+
+<img src="./img/duflo2.png"/>
+[Site du Collège de France](https://www.college-de-france.fr/chaire/esther-duflo-pauvrete-et-politiques-publiques-chaire-statutaire)
+
+---
+
+## Conclusion
+
+Pour bâtir des théories économiques et des méthodes empiriques, une des clés est de s’appuyer sur des données et des informations qui seraient :
+* FIABLES
+* RÉGULIÈRES
+* STANDARDISÉES
+* COMPARABLES 
+
+---
+
+class: inverse, center, middle
+
+# Données de l’aide internationale disponibles en open data : le standard _IATI_
+
+---
+
+class: center, middle
+
+## IATI = _International Aid Transparency Initiative_
+
+---
+
+## Histoire de l’IATI
+
+
+**Forum de Haut Niveau d’Accra 2008 - Programme d’action d’Accra Para. 24a et 26b**
+- “Diffuser publiquement des informations régulières, détaillées et opportunes sur le volume, les affectations et les résultats...”
+- “Fournir des informations régulières et opportunes sur les dépenses prévisionnelles et les plans de mise en œuvre...”
+
+**Busan 2011 - Déclaration de Busan pour l’efficacité de l’aide :**
+- “Mettre en œuvre une norme commune, ouverte, en vue de la publication électronique d’informations opportunes, complètes et orientées vers l’avenir sur les ressources fournies grâce à la coopération pour le développement...”
+
+---
+## Principes de l’IATI
+
+* Rendre l’information sur l’aide publique et privée plus disponible et accessible.
+* Avoir un fort engagement institutionnel (engager les bailleurs de fonds, et les pays partenaires) 
+* Une initiative d’innovation technologique (développement de formats électroniques communs pour permettre l'échange automatique de données) 
+
+Il est attendu des signataires de l’IATI qu’ils respectent leurs engagements dans le respect des règles, et au profit des bailleurs comme des pays bénéficiaires. 
+
+---
+
+## Une initiative pour la transparence de l’aide
+
+Le standard IATI a été construit en 2008 sur la base du système de déclaration statistique de l’OCDE, le Credit Reporting System (CRS).
+ 
+* Avant IATI, le seul système rassemblant des informations sur les données de l’aide internationale était cet outil.
+* L’information n’était pas à jour (un à deux ans de décalage) des délais considérés comme trop longs pour le pilotage de projets
+* Le standard IATI n’est pas aussi exhaustif
+
+Une initiative multi-partite financée par les bailleurs et les États. 
+
+La gouvernance est importante : pas de standard de données sans [gouvernance](https://iatistandard.org/fr/governance/) propre et propre.
+
+---
+class: center, middle
+
+![](./img/iati1.png)
+https://www.youtube.com/watch?v=PbwIUQwL_Jc
+
+---
+
+## Une initiative qui rassemble
+
+**1496 organisations qui publient à ce jour**
+
+Ce nombre augmente tous les ans
+(Source : https://www.iatiregistry.org)
+
+**Des données à jour**
+
+96% des éditeurs mettent à jour leurs données au moin´s chaque trimestre
+
+**Des données disponibles**
+
+Au moins 9 des 10 pays les plus développés publient leur données
+
+---
+
+## Qui publie les données ?
+
+**Les agences gouvernementales ou Ministères** 
+
+State Department, Ministère des Affaires Étrangères
+
+**Les bailleurs bilatéraux**
+
+USAID, l’AFD, DFID, SIDA, GIZ, etc..
+
+**Les bailleurs multilatéraux**
+
+Agences de l’ONU, Commission Européenne 
+
+**Les fondations privées**
+
+Gates Foundation
+
+**Les ONGs**
+
+Oxfam, Save the Children
+
+---
+
+## Des données réparties en deux fichiers
+
+**1. Des données de niveau stratégique et général : le fichier Organisation**
+
+* Budgets organisationnels
+* Budgets nationaux
+* Information stratégique
+
+**2. Des données au niveau opérationnel et local**
+
+* Documents au niveau des activités
+* Budgets des projets et des transactions
+* Informations des agences locales sur l’exécution
+* Résultats des activités
+
+---
+
+## Un portail unique : d-portal
+
+
+![](./img/dportal.png)
+
+http://d-portal.org
 
 
 ---
 
-## Esther Duflo : chaire annuelle du Collège de France 2022-2023
 
-https://www.college-de-france.fr/chaire/esther-duflo-pauvrete-et-politiques-publiques-chaire-statutaire
+## Petit exercice
 
+### Parcourir les données opérationnelles
+
+Sur D-Portal, sélectionnez : 
+
+RECIPIENT COUNTRY : Colombia
+PUBLISHER : Agence Française de Développement
+YEAR : 2022
+
+→ Question : En quelle année débute le "Femmes du Monde : un réseau pour les autonomies sociale, politique et économique des femmes des quartiers populaires aux Suds et aux Nords" ?
+
+→ Qui est le partenaire local de mise en oeuvre ? Pour le compte de quel pays ? Via quelle organisation ? (implementing partner) 
+
+→ Combien de pays receveurs font partie du projet ? 
+
+---
+
+class: inverse, center, middle
+
+# Quelles sont les (autres) informations publiées dans le standard IATI ? 
+
+---
+
+## Données géographiques
+
+![](./img/geo.png)
+
+---
+
+## Données financières
+
+![](./img/finance.png)
+
+---
+
+## Classification des données
+
+![](./img/class.png)
+
+---
+
+class: inverse, center, middle
+
+# Un index pour mesurer la performance de la transparence
+
+---
+
+## L'index : une expertise société civile
+
+**L’index de la Transparence de l’Aide**
+
+L’ONG “Publish What You Fund” ( PWYF ) publie chaque année un classement des bailleurs de fonds suivant plusieurs critères, dont la qualité des données publiées avec le standard IATI. 
+
+
+Parmi les autres critères : 
+* pertinence de la loi d’accès à l’information pour l’aide internationale, 
+* publication de rapport annuel, 
+* de documents de budgets, 
+* d’évaluation, etc.
 
 
 ---
 
-## Évaluation aléatoire
+# Le classement 2022
 
-https://www.povertyactionlab.org/evaluation/farmers-and-fear-crime-improving-agricultural-productivity-through-farm-protection-kenya
-https://www.povertyactionlab.org/sites/default/files/research-paper/Farm%20Theft%20and%20Social%20Relationships%20Evidence%20from%20Maasai%20Farm%20Watchmen.pdf
+![](./img/index.png)
 
-https://www-nber-org.acces-distant.sciencespo.fr/system/files/working_papers/w28074/w28074.pdf 
+https://www.publishwhatyoufund.org/the-index/2022/
 
-https://www.univ-evry.fr/fileadmin/mediatheque/ueve-institutionnel/03_Recherche/laboratoires/Epee/wp/10-02.pdf 
+---
+## La France classée 28 sur 50
 
-### .red[For what purposes] will you practice data science in a public affairs curriculum ?
+En France, deux institutions se chargent de publier des données : 
 
+**1. L’AFD**
 
-* **#1** Digital transformation of organizations is now based on (open) data
+L’AFD a publié des données dans le registre de l’IITA selon une base mensuelle et a amélioré sa fréquence de publication depuis l’Indice 2018. Son classement s’est nettement améliorée depuis 2018, en augmentant sa note de 12 points.
+https://www.publishwhatyoufund.org/the-index/2020/francaise-afd/ 
 
-* **#2** Data are raw material to design and implement data-driven policies
+**2. Le Ministère de l’Europe et des Affaires Étrangères**
 
-* **#3** There is a very engaging legal and political framework
+Le MEAE fournit ou fait des crédits des aides aux projets, des aides budgétaires et une assistance technique. Le Ministère a amélioré la fréquence de publication, passant de moins d’une fois par trimestre en 2016 à une fois par mois en 2018.
+https://www.publishwhatyoufund.org/the-index/2020/francaise-meae/ 
 
 ---
 
-### #1 - Digital transformation of organizations is now based on .red[(open) data]
+**Les banques, les anglo-saxons**
 
+1. AfDB : Banque Africaine de Développement 
+2. World Bank-IDA : International Development Association
+3. IADB: Inter-American Development Bank 
+4. AsDB : Banque Asiatique de Développement
+5. US-MCC : Millennium Challenge Corporation (MCC) is an independent bilateral US foreign aid agency, created by the US Congress in 2004 
+6. UNICEF
+7. UNDP : United Nations Development Program
 
-.left-column[**Step 1 : From information systems services to digital services**]
-
-.right-column[.center[![](./img/dinum-dinsic.png)]]
 
 
 ---
