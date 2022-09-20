@@ -115,14 +115,6 @@ class: inverse, center, top
 
 <img style="float:right; margin:10px ; width:200px" src="https://datactivist.coop/recife/img/stickerdatapeople.png" />
 
-- Datactivist is a French cooperative company specialized in open data, created in 2016.
-
-- We work throughout the entire lifecycle of data with .red[**both data producers and reusers**] and participate in the appropriation of data by everyone.
-
-- We practice what we preach and contribute to .red[**commons**] : we are a workers co-operative and our productions are freely usable by anyone.
-
-- We believe .red[**research**] can help us better understand and solve the issues we face in the open data field.
-
 
 ---
 
@@ -729,25 +721,344 @@ https://www.publishwhatyoufund.org/the-index/2020/francaise-meae/
 6. UNICEF
 7. UNDP : United Nations Development Program
 
+---
+
+class: inverse, center, top
+
+background-image: url(https://media.giphy.com/media/vdbrUjzrUEGly/giphy.gif)
+
+
+# À table ! Rendez-vous à 13h30 !
 
 
 ---
 
-### #1 - Digital transformation of organizations is now based on .red[(open) data]
+class: inverse, center, middle
 
-.left-column[**Step 2 : From digital services to digital AND data services**]
+# Initiation au travail avec les données 
 
-.right-column[![](./img/cddo.png)
-[Source](https://www.publictechnology.net/articles/news/scores-gds-staff-moved-new-central-digital-and-data-office)
-]
+---
+
+## Programme de cette après-midi
+
+**Un peu de cartographie !**
+
+* Rappel de vos enseignements sur les données
+* Exporter les données (en .csv, excel..)
+* Traiter les données (petites opérations) 
+* Datavisualisation : cartographie, infographie
+
+**Rappel des objectifs**
+
+* Utiliser des données ouvertes pour appuyer une décision ou un plaidoyer
+* S'approprier les phases de l'analyse de données : trouver, récupérer, nettoyer, traiter, présenter, etc...
+* Effectuer des datavisualisations simples mais utilisables dans de nombreux contexte : cartographie, infographie
+
+---
+## Module [“Culture générale des données”](https://datactivist.coop/SPoSGL/) en 1A
+
+* Section 1 : Qu’est-ce qu’une donnée ? Petite histoire sociale des données et de leur exploitation
+* Section 2 : La datafication ou les promesses de la mise en données du monde
+* Section 3 : Données, données… quelles données ? Les différents types de données
+* Section 4 : L’écosystème des sources de données publiques
+* Section 5 : Manipulation et représentation de données, éviter des écueils classiques
+* Section 6 : Open Data et Gouvernement ouvert
+* Section 7 : Créer de la valeur à partir des données publiques
+* Section 8 : Le cadre juridique autour de l’open data et de la protection des données personnelles
+* Section 9 : Qu’est-ce que la data science ?
+* Section 10 : Analyse, modélisation, machine learning et algorithmes
 
 ???
 
-Center of digital and data office CDDO directly part of the cabinet office (drived by UK's Prime Minister) - the cabinet office is in charge of setting priorities for the prime minister action and also take care of cross-departmental policies which is obvious for digital transformation 
-
-Government Digital Service steps into its new role as the centre of the government’s digital transformation of products, platforms and services.
+Rappel section 3
 
 ---
+class: inverse, center, middle
+
+# Exercice 1
+
+
+---
+
+## Mise en situation
+
+.pull-left[
+
+Vous effectuez un stage de fin d'étude à **l'Ambassade de France en Argentine**. Votre supérieur vous informe que le·a directeur·rice Argentine de l'AFD va changer et que la nouvelle personne en poste va rapidemment prendre contact avec l'ambassadrice (Claudia Scherer-Effosse). 
+**Vous êtes chargé·e de réaliser une note, appuyée sur des données sur l'action de l'AFD en Amérique du Sud.**
+
+**Pour cela, il vous faudra réaliser cette carte : **
+
+*Les valeurs correspondent à la moyenne des engagements bruts en millions Euros *
+
+]
+
+.pull-right[
+
+<img src="./img/map.png" height="400"/>
+
+[Accédez à la carte](https://www.datawrapper.de/_/0etKH/)
+
+]
+
+---
+
+## Une méthode pas-à-pas
+
+
+.pull-left[
+
+Valable pour tout type de projet, de la brève sur le vote du budget municipal à l’enquête internationale sur l’évasion fiscale.
+
+**UN TRAVAIL SOUVENT NON LINEAIRE** : Aller-retour entre étapes, répétition des étapes pour plusieurs jeux de données…
+
+
+]
+
+.pull-right[
+
+<img src="./img/steps.png" height="400"/>
+
+]
+
+---
+## Une méthode pas-à-pas
+
+.pull-right[
+
+<img src="./img/steps2.png" height="400"/>
+
+]
+
+---
+
+## Deux questions principales à se poser
+
+→ Où se trouvent les données ?
+
+→ Sous quel format sont-elles conservées ?
+
+<img src="./img/table1.png" height="400"/>
+
+
+---
+## Ce qui implique le format des données
+
+→ D’où la nécessité des données disponibles de façon la plus brute possible
+
+<img src="./img/table2.png" height="400"/>
+
+---
+
+## S’organiser : quelques règles simples
+
+**→ Ne jamais travailler sur le fichier original, toujours sur une copie**
+
+→ Faire des copies à chaque grande étape de la transformation du fichier. Une erreur doit être facilement réparable.
+
+→ s’assurer d’avoir des copies de sauvegarde pour tous les fichiers de travail. Hors ligne (disque dur externe) ou en ligne (Dropbox, Google Drive, Github...).
+
+→ prendre en note les étapes de votre méthodologie, afin de pouvoir facilement revenir sur un projet ou de les partager avec des collègues absents
+
+---
+
+## Les 3 étapes du nettoyage de données
+
+**1. Le toilettage :** à cheval entre la vérification et le nettoyage, permet de faire des analyses simples (tri, visualisations…). Seule la forme des données est touchée.
+
+*Par ex : Tableaux croisés dynamiques pour faire des analyses rapides*
+
+**2. L’édition :** ne garder que les données pertinentes pour l’analyse, et corriger les éventuels problèmes de contenu.
+
+*Par ex : enlever certaines colonnes d’un jeu de données etc*
+
+**3. Le rapprochement : **associer plusieurs jeux de données si nécessaire afin d’avoir un jeu de données plus complet. Peut nécessiter de refaire toute la pipeline de données.
+
+*Par ex : faire une carte des projets de coopération français en associant les 3 jeux de données du MEAE, de l’AFD et de Proparco*
+
+---
+## Rappel : mise en situation
+
+.pull-left[
+
+Vous effectuez un stage de fin d'étude à **l'Ambassade de France en Argentine**. Votre supérieur vous informe que le·a directeur·rice Argentine de l'AFD va changer et que la nouvelle personne en poste va rapidemment prendre contact avec l'ambassadrice (Claudia Scherer-Effosse). 
+**Vous êtes chargé·e de réaliser une note, appuyée sur des données sur l'action de l'AFD en Amérique du Sud.**
+
+**Pour cela, il vous faudra réaliser cette carte : **
+
+*Les valeurs correspondent à la moyenne des engagements bruts en millions Euros *
+
+]
+
+.pull-right[
+
+<img src="./img/map.png" height="400"/>
+
+[Accédez à la carte](https://www.datawrapper.de/_/0etKH/)
+
+]
+
+---
+
+## Les étapes de l'exercice (1)
+
+**1. Aller sur le portail open data de l’AFD**
+
+https://opendata.afd.fr/page/accueil/
+
+**2. Aller dans l’onglet “Données”**
+
+et en particulier trouver le jeu de données “Données de l'aide au développement de l'AFD” 
+
+**3. Aller dans l’onglet “tableau” pour avoir un aperçu des données**
+
+https://opendata.afd.fr/explore/dataset/donnees-aide-au-developpement-afd/table/?disjunctive.pays_de_realisation
+
+**→ Que lit-on ?**
+
+
+---
+
+## Les étapes de l'exercice (2)
+
+**4. Regarder les filtres disponibles :**
+
+* Etat du projet : Exécution / Achevé
+* Pays de réalisation
+* Région : Amériques
+* Libellé CICID 
+
+**5. Aller dans EXPORT**
+
+https://opendata.afd.fr/explore/dataset/donnees-aide-au-developpement-afd/export/?disjunctive.pays_de_realisation&refine.region=Am%C3%A9riques
+
+**6. Télécharger au format .csv sur votre sélection**
+
+---
+## Les étapes de l'exercice (3)
+
+**7. Ouvrir le fichier dans un tableau**
+
+Google Spreadsheets ou Excel. Psst : https://fr.wikihow.com/ouvrir-un-fichier-CSV 
+
+**8. Bien observer les colonnes de données requises pour faire une carte**
+
+-> Pays de réalisation
+-> Montant
+
+---
+
+## Les étapes de l'exercice (4)
+
+**9. Dans tous les cas, la première étape consiste à grouper les projets par pays**
+
+Il faut passer d’un fichier avec une ligne par projet à un fichier qui regroupe les projets par pays
+
+→ On utilise pour ça un tableau croisé dynamique (*Pivot table*)
+
+Psst : https://fr.wikihow.com/cr%C3%A9er-un-tableau-crois%C3%A9-dynamique-sous-Excel
+
+---
+
+class: center, middle
+
+![](./img/tdc.png)
+
+
+**Ce qu'on veux obtenir**
+
+---
+
+## Les étapes de l'exercice (5)
+
+**Configuration du tableau croisé dynamique**
+
+**Lignes :** Pays de réalisation 
+
+**Valeurs :** AVERAGE des Engagements bruts 
+
+**10. Se connecter à**
+
+https://www.datawrapper.de/ 
+
+---
+
+## Les étapes de l'exercice (6)
+
+**11. Sélectionner la partie création de cartes**
+
+
+![](./img/wrap1.png)
+---
+## Les étapes de l'exercice (7)
+
+.pull-left[
+
+Datawrapper a besoin d'un tableau avec au moins deux colonnes :
+**Names** et **value**
+
+Le géocodage de chaque région que vous souhaitez remplir d'une couleur. Le plus souvent, c'est le nom ou les données de géolocalisation.
+
+Chaque carte aura des géocodes spécifiques et il est préférable de vérifier lesquels sont acceptés au début de votre processus de préparation des données.
+
+[Lien d'aide](https://academy.datawrapper.de/article/115-how-to-import-data-choropleth-map)
+
+]
+
+.pull-right[
+
+<img src="./img/wrap2.png" height="400"/>
+
+]
+
+---
+
+class: inverse, center, middle
+
+# Exercices 2 et 3 (BONUS)
+
+
+---
+
+## Exercice 2
+
+#### Avec les données IATI 
+
+.center[<img src="./img/graph1.png" height="400"/>]
+
+---
+
+## Exercice 2
+
+#### 5 secteurs d’activités principalement soutenus au Mexique les 3 dernières années
+
+.center[<img src="./img/ex3.png" height="400"/>]
+
+---
+## Exercice 3
+
+#### Vous êtes chargé de plaidoyer chez Amnesty International
+
+
+Vous devez rédiger un argumentaire pour nourrir une campagne qui visera à **informer le public sur les ventes illégales d’armes françaises** afin d'obtenir la mise en place d’un contrôle sur ce commerce.
+
+
+Argumentaire : 
+
+> *Nous ne disons pas que toutes les exportations d’armes françaises sont illégales ou que la France fait n’importe quoi tout le temps, mais dans certains cas comme l’Égypte, ou le Yémen, la France ne respecte pas le droit international.*
+
+https://www.amnesty.fr/controle-des-armes 
+
+**Objectiver : **
+
+Pour le prouver, vous devez trouver le montant et le type d’armement exporté par la France au Yémen et au Liban.
+
+
+
+
+---
+
+
 
 ### #2 - Data are raw material to design and implement .red[data-driven policies]
 
