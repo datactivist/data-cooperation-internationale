@@ -102,6 +102,12 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 ---
 
 
+.center[<img src="./img/modulo.png" height="600"/>]
+
+
+---
+
+
 background-image: url(https://media.giphy.com/media/7zYMzl3AqmkDU7cXa9/giphy.gif)
 class: inverse, center, top
 
@@ -109,9 +115,18 @@ class: inverse, center, top
 # Présentations
 
 
+
 ---
 
 ## Présentation
+
+* Sciences sociales et sciences politiques
+* Sciences sociales et urbanisme (Berlin)
+* Data dans des startups (Berlin)
+* Master stratégies territoriales et urbaines
+* Apprentissage
+* Consultant open data et gouvernance des données 
+
 
 <img style="float:right; margin:10px ; width:200px" src="https://datactivist.coop/recife/img/stickerdatapeople.png" />
 
@@ -144,6 +159,14 @@ class: inverse, center, top
 
 ---
 
+class: inverse, center, middle
+
+
+# Les données : des enjeux de coopération internationale
+
+---
+
+
 ## Les données, un enjeu de gouvernance
 
 
@@ -157,7 +180,7 @@ Décentralisation, Fonction publique, Administration électronique, État-civil 
 
 * **Les institutions publiques de coopérations internationales sont dans l’obligation de publier leur données de fonctionnement**
 
-**Foreign Aid Transparency and Accountability Act / FATAA** : redevabilité et transparence pour les dépenses liées à l’aide publique au développement. Droit d’accès à l’information pour les ONG et les citoyens.
+**Foreign Aid Transparency and Accountability Act / FATAA** : redevabilité et transparence pour les dépenses liées à l’aide publique au développement.
 
 ---
 
@@ -166,7 +189,7 @@ Décentralisation, Fonction publique, Administration électronique, État-civil 
 
 * **Départements “Data” crées au sein de tous les organismes de coopération**
 
-Banque Mondiale, OCDE, ONU, mais aussi dans les ONG (TI, Amnesty, Greenpeace,..) ou dans les instances Européennes ( DEVCO, Parlement, Commission) et les bailleurs bilatéraux. (USAID, DFID, GIZ, AFD, SIDA..)
+Banque Mondiale, OCDE, ONU, mais aussi dans les ONG (TI, Amnesty, Greenpeace,..) ou UE (Parlement, Commission) et les bailleurs bilatéraux (USAID, DFID, GIZ, AFD, ...)
 
 * **La donnée n’est pas un sujet uniquement technique ou statistique**
 
@@ -188,30 +211,96 @@ class: inverse, center, middle
 
 ---
 
-## 1. Sur le thème de la résilience climatique
+## 1. Résilience climatique
+
+
+.center[<img src="./img/wb.png" height="400"/>]
+
+https://documents1.worldbank.org/curated/fr/134531592556070536/pdf/Open-Data-for-Resilience-Initiative-Planning-and-Open-Cities-Mapping-Project.pdf
 
 
 ---
 
-## 2. Sur le thème de la participation citoyenne
+## 2. Participation citoyenne
+
+.center[<img src="./img/benin.png" height="400"/>]
+
+https://bouba.mondoblog.org/2015/12/28/benin-vote-2016-les-blogueurs-du-benin-se-mobilisent-autour-de-lelection/
 
 ---
 
-## 3. Sur le thème de la transparence de l’action publique
+## 3. Transparence de l’action publique
+
+
+.center[<img src="./img/tchad.png" height="400"/>]
+
+
+http://www.observatoire.td/
+
+---
+
+## 4. Coopération avec les média
+
+Organisation indépendante créée en octobre 2012 par un ancien journaliste de l’AFP. Cette plateforme internet vise à lutter contre les fausses informations qui circulent dans les médias en Afrique et pouvant faire face au refus des institutions et administrations de répondre aux questions des journalistes.
+
+
+.center[<img src="./img/check.png" height="200"/>]
+
+
+https://africacheck.org/fr
 
 
 ---
 
-## 4. Sur le thème de la coopération des média
+## 5. Piloter l'action publique par la donnée
+
+
+---
+
+
+## 6. Sécurité internationale
+
+
+
 
 
 ---
 
 ## Deux notions reviennent souvent
 
+.pull-left[
+**Open Data**
+
+"Une donnée est ouverte si chacun peut librement y accéder, l'utiliser, la modifier et la rediffuser, quel que soit son but.
+
+L'open data est aussi un mouvement composé d'acteurs militant pour l'ouverture des données. Il est aussi une politique publique consistant à ouvrir les données publiques de manière à favoriser l'innovation ouverte dans le secteur public, rendre des comptes aux citoyens et améliorer la transparence de l'action publique et enfin mettre à disposition du secteur privé des ressources permettant le développement de nouveaux services." 
+[Contibuteur·rice·s Wikipedia](https://fr.wikipedia.org/wiki/Donn%C3%A9es_ouvertes#cite_note-GDT-1)
+
+]
+
+
+.pull-right[
+
+**Gouvernement ouvert**
+
+Principes
+
+*Transparence dans la gestion des affaires publiques ;
+
+*Redevabilité des élus dans la gestion des affaires publiques ;
+
+*Diffusion d’informations essentielles à la compréhension et au suivi des politiques locales ;
+
+*La participation citoyenne dans la décision, le suivi et l’évaluation de l’action publique.
+
+]
+
+
 ---
 
 ## En France
+
+.center[<img src="./img/go.png" height="400"/>]
 
 
 ---
@@ -502,6 +591,41 @@ Pour bâtir des théories économiques et des méthodes empiriques, une des clé
 
 ---
 
+## Petit exercice
+
+[Cliquez ici.](https://www1.compareyourcountry.org/dev-coop-profiles-2022/en/0//default/all/4)
+
+.pull-left[
+
+À propos de la [Loi du 4 août 2021 de programmation relatif au développement solidaire et à la lutte contre les inégalités mondiales](https://www.vie-publique.fr/loi/277797-loi-4-aout-2021-programmation-aide-publique-developpement-solidaire)
+
+La Loi prévoit de orter l'APD de 0,37% en 2017 à 0,55% en 2022.
+
+**1. Cela est-il été suivi d'effets ?**
+
+]
+
+.pull-right[
+
+
+[Écoutez les propos de Najat Vallaud-Belkacem](https://www.radiofrance.fr/franceculture/podcasts/politique/najat-vallaud-belkacem-il-faut-repenser-l-aide-publique-au-developpement-9433731)
+
+
+Directrice générale France de [ONE](https://fr.wikipedia.org/wiki/Campagne_ONE) (ONG de plaidoyer en partenariat avec plusieurs ONG humanitaires).
+
+> *"Environ 20% sert à financer l'acceuil des réfugiés sur le territoire, soit les frais de santé des demandeurs d'asile et les bourses des étudiants demandeurs d'asile."*
+
+**2. As-t-elle raison ?**
+
+
+*7 minutes 30 - 8 minutes 55*
+
+]
+
+
+
+---
+
 class: inverse, center, middle
 
 # Données de l’aide internationale disponibles en open data : le standard _IATI_
@@ -733,6 +857,11 @@ background-image: url(https://media.giphy.com/media/vdbrUjzrUEGly/giphy.gif)
 
 ---
 
+.center[<img src="./img/modulo.png" height="600"/>]
+
+
+---
+
 class: inverse, center, middle
 
 # Initiation au travail avec les données 
@@ -755,7 +884,7 @@ class: inverse, center, middle
 * Effectuer des datavisualisations simples mais utilisables dans de nombreux contexte : cartographie, infographie
 
 ---
-## Module [“Culture générale des données”](https://datactivist.coop/SPoSGL/) en 1A
+## Module [“Culture générale des données”](https://datactivist.coop/SPoSGL/)
 
 * Section 1 : Qu’est-ce qu’une donnée ? Petite histoire sociale des données et de leur exploitation
 * Section 2 : La datafication ou les promesses de la mise en données du monde
@@ -1022,20 +1151,20 @@ class: inverse, center, middle
 
 ## Exercice 2
 
-#### Avec les données IATI 
+#### Avec les données IATI
 
 .center[<img src="./img/graph1.png" height="400"/>]
 
 ---
 
-## Exercice 2
+## Exercice 3
 
 #### 5 secteurs d’activités principalement soutenus au Mexique les 3 dernières années
 
 .center[<img src="./img/ex3.png" height="400"/>]
 
 ---
-## Exercice 3
+## Mise en situation finale
 
 #### Vous êtes chargé de plaidoyer chez Amnesty International
 
@@ -1054,155 +1183,10 @@ https://www.amnesty.fr/controle-des-armes
 Pour le prouver, vous devez trouver le montant et le type d’armement exporté par la France au Yémen et au Liban.
 
 
-
-
----
-
-
-
-### #2 - Data are raw material to design and implement .red[data-driven policies]
-
-**Data-Information-Knowledge-Wisdom pyramid**
-
-.pull-left[
-[![largeur](https://gidoin.github.io/sciencespodata/img/pyramid.svg)](https://commons.wikimedia.org/w/index.php?curid=37705247)
-]
-
-.pull-right[Attributed to [Russell Ackoff](http://en.wikipedia.org/wiki/Russell_L._Ackoff), 1989
-
-Data may be :
-
-- Facts
-- signals
-- symbols]
-
----
-
-### #2 - Data are raw material to design and implement .red[data-driven policies]
-
-.pull-left[
-<img src="https://gidoin.github.io/sciencespodata/img/kitchin.jpg" height="400"/>
-]
-.pull-right[
-> *Data are commonly understood to be the raw material produced by **abstracting the world** into categories, measures and other representational forms – numbers, characters, symbols, images,sounds, electromagnetic waves, bits – that constitute the **building blocks** from which information and knowledge are created.*]
-
----
-
-### #2 - Data are raw material to design and implement .red[data-driven policies]
-
-.pull-left[
-**Some fields and ideas :**
-
-- Public spending control
-- Carbon budgets
-- Health and human services
-- Fraud detection
-- Tax evasion
-- ...
-
-
-]
-.pull-right[
-
-**Data analysis and data science are everywhere :**
-
-- OECD reports
-- Public policy assessment
-- COVID-19 dashboards
-- Census data
-- ...
-
-
-
-]
-
-.center[And many others !]
-
----
-
-### #2 - Data are raw material to design and implement .red[data-driven policies]
-
-.center[<img src="./img/edj.png" height="400"/>]
-
-.center[https://climatechange.europeandatajournalism.eu/en/map]
-
-???
-
- This map provides access to mini-dashboards that represent climate variations on an ultra-local scale. The data come from several European sources, including Copernicus.
-
-
----
-
-### #3 There is a very engaging .red[legal and political framework]
-
-***Things are moving now !***
-
-Two new acts part of the .red[European Data Strategy (2020)] : 
-
-- The Data Governance Act (applicable from **September 2023**)
-- The Data Act (adopted by Commission on **February 2022**)
-
-.center[<img src="./img/europe.png" height="280"/>]
-.center[https://digital-strategy.ec.europa.eu/en/policies/strategy-data]
-
----
-
-### #3 There is a very engaging .red[legal and political framework]
-
-.left[<img src="./img/roadmap.png" height="100"/>]
-.center[<img src="./img/fdr.png" height="200"/>]
-.right[<img src="./img/recru.png" height="100"/>]
-
-
----
-
-### And now ? 
-
-</BR>
-<BR>
-
-.center[<img src="https://media.giphy.com/media/JrYnKirK79252t3wDs/giphy.gif"/>]
-
----
-class: middle
-
-
-.pull-left[
-
-**Breaks and back to plenary :**
-
-- 11:25 - break - 15 min (please come back at 11:40 !)
-- 12:40 - group correction - 20 min
-
-- 1:00 - **lunch break** - 60 min (please come back at 2:00 !)
-- after lunch breah - 20 min presentation by Syvlain
-
-- 3:25 - break 2 - 15 min (please come back at 3:40 !)
-- 4:35 - break 3 - 15 min (please come back at 4:50 !)
-
-- 5:20 - group correction and quizz day 1
-
-]
-
---
-
-.pull-right[
-**The Github repo will be your house for this bootcamp**. Link : https://github.com/datactivist/scpo-data-science-bootcamp
-
-1- Follow the link of the Google Colab notebook
-
-<img src="./img/github.png" height="100"/>
-
-2- Save a copy of the notebook in your own Google Drive storage
-
-<img src="./img/colab.png" height="150"/>
-
-]
-
 ---
 
 class: inverse, center, middle
 
 # Questions ?
 
-Contact : [mathieu@datactivist.coop](mailto:mathieu@datactivist.coop), [sylvain@datactivist.coop](mailto:sylvain@datactivist.coop) & [clement@datactivist.coop](mailto:clement@datactivist.coop)
+Contact : [clement@datactivist.coop](mailto:clement@datactivist.coop)
