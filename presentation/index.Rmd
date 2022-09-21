@@ -2,7 +2,7 @@
 title: "Data et politiques de coopération internationale"
 subtitle: ""
 author: "Cécile Le Guen, Clément Mandron"
-date: "Année scolaire 2022-2023"
+date: "Année universitaire 2022-2023"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -254,6 +254,11 @@ https://africacheck.org/fr
 
 ## 5. Piloter l'action publique par la donnée
 
+.center[<img src="./img/meae.png" height="300"/>]
+
+Les missions du CDCS
+
+https://www.diplomatie.gouv.fr/fr/le-ministere-et-son-reseau/le-centre-de-crise-et-de-soutien/accompagner-les-operateurs-de-l-etat-et-les-entreprises/
 
 ---
 
@@ -261,19 +266,18 @@ https://africacheck.org/fr
 ## 6. Sécurité internationale
 
 
+.center[<img src="./img/twitter.png" height="400"/>]
 
-
+https://www.radiofrance.fr/franceculture/twitter-etait-une-plateforme-de-choix-pour-les-djihadistes-7313518
 
 ---
 
-## Deux notions reviennent souvent
+### Deux notions reviennent souvent
 
 .pull-left[
 **Open Data**
 
-"Une donnée est ouverte si chacun peut librement y accéder, l'utiliser, la modifier et la rediffuser, quel que soit son but.
-
-L'open data est aussi un mouvement composé d'acteurs militant pour l'ouverture des données. Il est aussi une politique publique consistant à ouvrir les données publiques de manière à favoriser l'innovation ouverte dans le secteur public, rendre des comptes aux citoyens et améliorer la transparence de l'action publique et enfin mettre à disposition du secteur privé des ressources permettant le développement de nouveaux services." 
+"**Une donnée est ouverte si chacun peut librement y accéder, l'utiliser, la modifier et la rediffuser, quel que soit son but.** L'open data est aussi un mouvement. Il est aussi une politique publique consistant à ouvrir les données publiques de manière à favoriser l'innovation ouverte dans le secteur public, rendre des comptes aux citoyens et améliorer la transparence de l'action publique et enfin mettre à disposition du secteur privé des ressources permettant le développement de nouveaux services." 
 [Contibuteur·rice·s Wikipedia](https://fr.wikipedia.org/wiki/Donn%C3%A9es_ouvertes#cite_note-GDT-1)
 
 ]
@@ -623,6 +627,13 @@ Directrice générale France de [ONE](https://fr.wikipedia.org/wiki/Campagne_ONE
 ]
 
 
+---
+
+background-image: url(https://media.giphy.com/media/UTY42CoHu6wixtxTDh/giphy.gif)
+class: inverse, center, top
+
+
+# Pause
 
 ---
 
