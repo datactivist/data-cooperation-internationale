@@ -4,7 +4,7 @@
     <title>Data et politiques de coopération internationale</title>
     <meta charset="utf-8" />
     <meta name="author" content="Cécile Le Guen, Clément Mandron" />
-    <script src="libs/header-attrs-2.14/header-attrs.js"></script>
+    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
@@ -33,7 +33,7 @@ class: center, middle, inverse, title-slide
 
 # Data et politiques de coopération internationale
 ### Cécile Le Guen, Clément Mandron
-### Année universitaire 2022-2023
+### Année universitaire 2023-2024
 
 ---
 
@@ -79,7 +79,7 @@ Sources : https://github.com/datactivist/data-cooperation-internationale
 Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 
 &lt;BR&gt;
-**Le contenu de ces diapositives provient du cours dispensé par [Cécile Le Guen](https://twitter.com/cecileLG) ces dernières années. Je la remercie chalheureusement !**
+**Le contenu de ces diapositives a été adapté du cours dispensé par [Cécile Le Guen](https://twitter.com/cecileLG) ces dernières années. Je la remercie chalheureusement !**
 
 &lt;BR&gt;
 
@@ -89,11 +89,11 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 # Avant toute chose
 
-&gt; Il n'y a pas de question inutile.
+&gt; Toutes les questions sont utiles.
 
 --
 
-&gt; Il n'y a que des silence gênant.
+&gt; Tous les silences sont gênants.
 
 ---
 
@@ -103,100 +103,111 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 ---
 
+## Présentations
 
-background-image: url(https://media.giphy.com/media/7zYMzl3AqmkDU7cXa9/giphy.gif)
-class: inverse, center, top
+--
 
-
-# Présentations
-
-
-
----
-
-## Présentation
-
-* Sciences sociales et sciences politiques
-* Sciences sociales et urbanisme (Berlin)
-* Data dans des startups (Berlin)
-* Master stratégies territoriales et urbaines
-* Apprentissage
-* Consultant open data et gouvernance des données 
-
-
-&lt;img style="float:right; margin:10px ; width:200px" src="https://datactivist.coop/recife/img/stickerdatapeople.png" /&gt;
-
-
----
-
-## À vous !
-
-1. Vous (notamment vous et votre année "hors-les-murs")
+1. Vous
 2. Votre futur vous
-3. Vous et la data
+3. Vous et la donnée
 4. Vous et ce cours
-5. Vous et ce que vous voulez
-
 
 ---
 
 ## Les objectifs de ce cours
 
-**Ce matin**
-* Comprendre la place de la data dans les programmes de développement bilatéraux
-* Comprendre la place de la data dans les programmes multilatéraux
-* Comprendre l'utilité des données ouvertes dans les politiques de développement et la diplomatie
+**Ce matin : _la théorie_**
+* Découvrir des cas d'usage de l'utilisation des données (ouvertes) dans les politiques de coopération international
+* Comprendre la place de la donnée dans les programmes de développement
 * Découvrir la gouvernance des données autour des données de l'ADP (standard international IATI, portail open data interministériel)
 
-**Cet après-midi**
-* Utiliser des données ouvertes pour appuyer une décision ou un plaidoyer
+**Cet après-midi : _la pratique_**
+* Effectuer des datavisualisations simples mais utilisables dans de nombreux contexte : cartographie et infographie
 * S'approprier les phases de l'analyse de données : trouver, récupérer, nettoyer, traiter, présenter, etc...
-* Effectuer des datavisualisations simples mais utilisables dans de nombreux contexte : cartographie, infographie
+* Utiliser des données ouvertes pour appuyer une décision ou un plaidoyer
+
+---
+
+## Le programme de ce cours
+
+**Ce matin : _la théorie_**
+1. Les données : des enjeux de coopération internationale
+2. Focus : l'aide au développement est-elle efficace ?
+3. Les données (ouvertes) de l’aide au développement
+
+**Cet après-midi : _la pratique_**
+1. Exercice 1
+2. _Exercices bonus_
+3. Mise en sitaution professionnelle
 
 ---
 
 class: inverse, center, middle
 
 
-# Les données : des enjeux de coopération internationale
+# 1. Les données : des enjeux de coopération internationale
 
 ---
 
+## Les données, au coeur des politiques de coopération
 
-## Les données, un enjeu de gouvernance
 
+* **Les données, un élément-clé des politiques publiques**
 
-* **Les données, un élément-clé des politiques publiques de gouvernance**
+Derrière les choix, on trouve des données (PIB, seuil de pauvreté, IDH, Indice de pauvreté multidimensionnel, etc...)
 
-Décentralisation, Fonction publique, Administration électronique, État-civil et identification des personnes, Gouvernement ouvert, ...
+* **Les données sont des vecteurs de la transformation de l'action publique**
 
-* **Les pôles Gouvernance des organisations internationales traitent de sujets liés aux données**
+Evaluation des politiques publiques et des programmes de développement, dématérialisation de l'administration, identification des personnes, transparence de l'action publique
 
-Élaborations des cadres de l'action publique et d'analyses comparatives, dialogue de politique sectorielle avec les autorités nationales et locales compétentes.
+---
 
-* **Les institutions publiques de coopérations internationales sont dans l’obligation de publier leur données de fonctionnement**
+## Les données, enjeux de gouvernance
 
-**Foreign Aid Transparency and Accountability Act / FATAA** : redevabilité et transparence pour les dépenses liées à l’aide publique au développement.
+.pull-left[
+Tendre vers la "bonne gouvernance", à partir d'objectifs chiffrés :
+- Plans d’ajustement structurels du FMI
+- PNUD
+- « Objectifs du Millénaire »
+- Objectifs de réduction des gaz à effet de serre du protocole de Kyoto
+- Critères de Maastricht)
+- ...
+
+]
+
+.pull-right[
+&lt;img src="./img/supiot.png" height="300"/&gt;
+]
+&gt; [La gouvernance par les nombres cours au Collège de France, 2012-2014](https://www.fayard.fr/livre/la-gouvernance-par-les-nombres-9782213681092/) (2015)
+
+???
+
+L'OCDE a succédé à l'Organisation européenne de coopération économique (OECE) issue du plan Marshall et de la Conférence des Seize (Conférence de coopération économique européenne) qui a existé de 1948 à 1961. Son but était l'établissement d'une organisation permanente chargée en premier lieu d'assurer la mise en œuvre du programme de relèvement commun (le plan Marshall), et, en particulier, d'en superviser la répartition.
+
+UE : 1992 Maastricht (critère de convergen), puis 2013 Pacte Burdgétaire (objectif d’équilibre ou d’excédent budgétaire, traduit en indicateurs chiffrés, calendrier de réalisation et procédure d’évaluation de sa mise en œuvre.
+
+International :
+- d’une part, sous la forme des objectifs chiffrés assignés aux États par des institutions internationales (plans d’ajustement structurels du FMI, PNUD, « Objectifs du Millénaire ») ou par des conventions internationales (objectifs de réduction des gaz à effet de serre du protocole de Kyoto)
+- d’autre part sous celle des évaluations chiffrées émises par les agences de notation sur les performances et les perspectives financières des États et des entreprises, ainsi que
+sur la confiance qu’on doit accorder aux titres financiers qu’ils émettent.
+
+Source : https://www.college-de-france.fr/sites/default/files/documents/alain-supiot/UPL2335835739398687161_supiot.pdf page 729
 
 ---
 
 ## Les données, un enjeu de développement
 
+* **Les institutions publiques de coopérations internationales sont dans l’obligation de publier leur données de fonctionnement**
+
+**Foreign Aid Transparency and Accountability Act / FATAA** : redevabilité et transparence pour les dépenses liées à l’aide publique au développement.
 
 * **Départements “Data” crées au sein de tous les organismes de coopération**
 
-Banque Mondiale, OCDE, ONU, mais aussi dans les ONG (TI, Amnesty, Greenpeace,..) ou UE (Parlement, Commission) et les bailleurs bilatéraux (USAID, DFID, GIZ, AFD, ...)
+Banque Mondiale, OCDE, ONU, mais aussi dans les ONG (TI, Amnesty, Greenpeace,..) et les bailleurs bilatéraux (USAID, DFID, GIZ, AFD, ...)
 
-* **La donnée n’est pas un sujet uniquement technique ou statistique**
+* **La donnée n’est pas un sujet uniquement technique ou statistique, mais estdevenue un enjeu de développement** 
 
-* **La donnée est devenue un enjeu de développement** 
-
-* **Transports / Images satellites / Innovation économique / Santé / Éducation / Environnement / Urbanisme**
-
-Mais aussi
-
-* **Résilience, Lutte contre la corruption, Prévention des catastrophes, Droits Humains, Participation Citoyenne, Liberté d’expression**
-
+Transports, innovation économique, santé, environnement, lutte contre la corruption, prévention des risques, participation citoyenne, ...
 
 ---
 
@@ -273,8 +284,13 @@ https://www.radiofrance.fr/franceculture/twitter-etait-une-plateforme-de-choix-p
 .pull-left[
 **Open Data**
 
-"**Une donnée est ouverte si chacun peut librement y accéder, l'utiliser, la modifier et la rediffuser, quel que soit son but.** L'open data est aussi un mouvement. Il est aussi une politique publique consistant à ouvrir les données publiques de manière à favoriser l'innovation ouverte dans le secteur public, rendre des comptes aux citoyens et améliorer la transparence de l'action publique et enfin mettre à disposition du secteur privé des ressources permettant le développement de nouveaux services." 
-[Contibuteur·rice·s Wikipedia](https://fr.wikipedia.org/wiki/Donn%C3%A9es_ouvertes#cite_note-GDT-1)
+**Une donnée est ouverte si chacun peut librement y accéder, l'utiliser, la modifier et la rediffuser, quel que soit son but.**
+
+L'open data est aussi un mouvement. 
+
+C'est aussi l'ouverture des données publiques brutes en vue de leur réutilisation
+
+[Contibuteurices Wikipedia](https://fr.wikipedia.org/wiki/Donn%C3%A9es_ouvertes#cite_note-GDT-1)
 
 ]
 
@@ -302,33 +318,14 @@ Principes
 
 .center[&lt;img src="./img/go.png" height="400"/&gt;]
 
-
----
-
-
-background-image: url(https://media.giphy.com/media/UTY42CoHu6wixtxTDh/giphy.gif)
-class: inverse, center, top
-
-
-# Pause
+La France finit son troisième plan d’action national (2021-2023), qui comrpend ces 6 engagements.
 
 ---
 
 class: inverse, center, middle
 
 
-# L'aide au développement est-elle efficace ?
-
----
-
-## Ce que nous allons apprendre
-
-* Différentes écoles de l’économie de l’Aide au Développement
-* Comment mesurer l’efficacité de l’APD ?
-* Découvrir le standard IATI et l’initiative portant le projet
-* Découvrir les données
-* Utiliser les données
-
+# 2. Focus : l'aide au développement est-elle efficace ?
 
 ---
 ## Définitions
@@ -361,9 +358,7 @@ class: inverse, center, middle
 
 ---
 
-## Trois écoles de pensée de l’économie du développement
-
-**Ils et elles ont formulé différentes approches économiques du développement :**
+## Trois approches économiques de l'aide publique au développement (APD)
 
 * William Easterly
 * Jeffrey Sachs
@@ -417,12 +412,11 @@ Les premières questions commencent à se poser envers l’efficacité de l’ai
 
 .pull-left[
 
-Il pense qu’il ne sert à rien d’investir de l’argent dans des pays qui ont : 
-* De mauvaises institutions 
-* Dont la gouvernance n’est pas bonne
-* Un excès de dépenses publiques 
+Il pense qu’il ne sert à rien d’investir de l’argent dans des pays qui ont : de mauvaises institutions, dont la gouvernance n’est pas bonne et avec un excès de dépenses publiques. 
 
-Entre 1950 et 2001, les pays ayant reçu une aide inférieure à la moyenne ont connu des taux de croissance similaires à ceux qui ont reçu une aide étrangère supérieure à la moyenne. 
+Selon lui, entre 1950 et 2001, les pays ayant reçu une aide inférieure à la moyenne ont connu des taux de croissance similaires à ceux qui ont reçu une aide supérieure à la moyenne. 
+
+**Il faut aider les pays à développer une économie de marché saine, plutôt que d'inverstir sur l'APD**
 
 ]
 
@@ -441,7 +435,7 @@ Exemple : la Corée du Sud.
 
 =&gt; Ceux qui en ont bénéficié ne s’en sortent pas forcément mieux 
 
-Difficulté à aménager l'aide (concrement`)
+Difficulté à aménager l'aide (concrement)
 
 
 ---
@@ -462,12 +456,13 @@ Difficulté à aménager l'aide (concrement`)
 .pull-left[
 
 Il insiste sur les facteurs qui maintiennent les populations dans les "trappes à pauvreté" : 
-* Soins insuffisants
-* Malnutrition
+* Soins insuffisants et malnutrition
 * Revenus faibles
 * Pas ou peu de formation, d’éducation
 
 Son idée : il faut mener des projets ambitieux pour agir **simultanément** sur toutes les causes de la pauvreté, quelques soient les problèmes de gouvernance sur place. 
+Il décide de mener son propre programme d’aide au développement : 
+[Millenium Village Project](https://www.un.org/esa/coordination/Alliance/Earth%20Institute%20-%20The%20Millennium%20Villages%20Project.htm)
 
 ]
 
@@ -479,57 +474,19 @@ Son idée : il faut mener des projets ambitieux pour agir **simultanément** sur
 ]
 
 ---
-## Jeffrey Sachs
-
-Il décide de mener son propre programme d’aide au développement : 
-[Millenium Village Project](https://www.un.org/esa/coordination/Alliance/Earth%20Institute%20-%20The%20Millennium%20Villages%20Project.htm)
-
-Objectif : Soutenir le développement d’une quinzaine de villages reculés en Afrique. 
-Agir sur tous les facteurs de la pauvreté : donner le coup de _boost_ de départ. 
-
-En 10 ans il a récolté 600 millions de USD$ pour financer son projet (avec des soutiens comme Bono ou Angelina Jolie). 
-
-
----
-
-## Nina Munk, une analyse du projet de Jeffrey Sachs 
-
-.pull-left[
-
-Nina Munk, une journaliste a suivi son projet : elle s’est rendue régulièrement dans deux pays en Ouganda et au Kenya pour observer pendant 6 ans ce qu’il s’est passé sur place et suivre le projet de Jeffrey Sachs de près. 
-Au Kenya où l’accès à eau question de survie et dans les Zones montagneuses de l’Ouganda. 
-
-**_Takeaway_**
-
-Faire très attention aux spécifités locales et toujours associer les usages aux données quantitatives.
-
-
-]
-
-.pull-right[
-
-Écoutez son intervention dans le cadre du postcast **Splash** - dont s’est très largement inspirée cette première partie ;) 
-
-_Entre 14:45-22:18._
-
-.center[![](./img/splash.png)
-
-[Nouvelles Écoutes - Splash](https://nouvellesecoutes.fr/podcast/splash/)
-]
-]
-
----
 
 ## Esther Duflo
 
 .pull-left[
 
-* Chercheuse au MIT
-* Directrice du [J-PAL (Poverty Action Lab)](https://www.povertyactionlab.org/fr) 
+* Chercheuse au MIT et Directrice du [J-PAL (Poverty Action Lab)](https://www.povertyactionlab.org/fr) 
 * Conseillère de Barack Obama
-* Assistante de recherche de Jeffrey Sachs
+* Prix de la Banque de Suède à la mémoire d'Alfred Nobel en 2019 
 
-Elle a mis au point une méthode de travail permettant de rassembler des données précises sur l’efficacité de l’aide au développement : **mesurer l’efficacité de l’aide par des expérimentations aléatoires.**
+Met le doigt sur les limites des études macro-économiques pour expliquer la baisse de la pauvreté.
+
+Elle utilise des méthodes économétriques pour **mesurer l’efficacité de l’aide au développement par des expérimentations aléatoires.**
+
 ]
 
 .pull-right[
@@ -537,6 +494,11 @@ Elle a mis au point une méthode de travail permettant de rassembler des donnée
 &lt;img src="./img/duflo.png" height="400"/&gt;
 
 ]
+
+???
+Etudes de Sachs et Easterly mobilisent les mêmes bases de données agrégées avec des indicateurs type PIB, IDH, incidence des épidémies, ...)
+
+https://books.openedition.org/cdf/2693?lang=fr#ftn8
 
 ---
 
@@ -581,47 +543,16 @@ Elle a mis au point une méthode de travail permettant de rassembler des donnée
 
 ---
 
-## Conclusion
+## Aller plus loin
 
-Pour bâtir des théories économiques et des méthodes empiriques, une des clés est de s’appuyer sur des données et des informations qui seraient :
-* FIABLES
-* RÉGULIÈRES
-* STANDARDISÉES
-* COMPARABLES 
+Écoutez le double épdisode du postcast **Splash** _"L'aide au développement a-t-elle la moindre efficacité ?"_ dont s’est inspirée ce focus.
 
----
 
-## Petit exercice
+.center[![](./img/splash.png)
 
-[Cliquez ici.](https://www1.compareyourcountry.org/dev-coop-profiles-2022/en/0//default/all/4)
-
-.pull-left[
-
-À propos de la [Loi du 4 août 2021 de programmation relatif au développement solidaire et à la lutte contre les inégalités mondiales](https://www.vie-publique.fr/loi/277797-loi-4-aout-2021-programmation-aide-publique-developpement-solidaire)
-
-La Loi prévoit de orter l'APD de 0,37% en 2017 à 0,55% en 2022.
-
-**1. Cela est-il été suivi d'effets ?**
-
+[Nouvelles Écoutes - Splash](https://nouvellesecoutes.fr/podcast/splash/)
 ]
-
-.pull-right[
-
-
-[Écoutez les propos de Najat Vallaud-Belkacem](https://www.radiofrance.fr/franceculture/podcasts/politique/najat-vallaud-belkacem-il-faut-repenser-l-aide-publique-au-developpement-9433731)
-
-
-Directrice générale France de [ONE](https://fr.wikipedia.org/wiki/Campagne_ONE) (ONG de plaidoyer en partenariat avec plusieurs ONG humanitaires).
-
-&gt; *"Environ 20% sert à financer l'acceuil des réfugiés sur le territoire, soit les frais de santé des demandeurs d'asile et les bourses des étudiants demandeurs d'asile."*
-
-**2. As-t-elle raison ?**
-
-
-*7 minutes 30 - 8 minutes 55*
-
 ]
-
 
 ---
 
@@ -635,7 +566,7 @@ class: inverse, center, top
 
 class: inverse, center, middle
 
-# Données de l’aide internationale disponibles en open data : le standard _IATI_
+# 3. Les données (ouvertes) de l’aide au développement
 
 ---
 
@@ -676,7 +607,7 @@ Le standard IATI a été construit en 2008 sur la base du système de déclarati
 
 Une initiative multi-partite financée par les bailleurs et les États. 
 
-La gouvernance est importante : pas de standard de données sans [gouvernance](https://iatistandard.org/fr/governance/) propre et propre.
+La gouvernance est importante : pas de standard de données sans [gouvernance](https://iatistandard.org/fr/governance/) propre (et propre).
 
 ---
 class: center, middle
@@ -688,7 +619,7 @@ https://www.youtube.com/watch?v=PbwIUQwL_Jc
 
 ## Une initiative qui rassemble
 
-**1496 organisations qui publient à ce jour**
+**1619 organisations qui publient (2023)**
 
 Ce nombre augmente tous les ans
 (Source : https://www.iatiregistry.org)
@@ -761,15 +692,22 @@ http://d-portal.org
 
 Sur D-Portal, sélectionnez : 
 
-RECIPIENT COUNTRY : Colombia
-PUBLISHER : Agence Française de Développement
-YEAR : 2022
+- RECIPIENT COUNTRY : Colombia
+- PUBLISHER : Agence Française de Développement
 
-→ Question : En quelle année débute le "Femmes du Monde : un réseau pour les autonomies sociale, politique et économique des femmes des quartiers populaires aux Suds et aux Nords" ?
+→ En quelle année débute le projet "Alternatives à la déforestation en Colombie" ?
 
-→ Qui est le partenaire local de mise en oeuvre ? Pour le compte de quel pays ? Via quelle organisation ? (implementing partner) 
+→ Quelle est la strcture en charge de la mise en oeuvre opérationnelle du projet ? Quelle est sa nationalité ?
 
-→ Combien de pays receveurs font partie du projet ? 
+
+???
+
+Le projet débute en mai 2020 et se termine en décembre 2021
+
+Envol Vert, association française
+
+Attention les projets sont en doubles (je ne sais pas pourquoi)
+
 
 ---
 
@@ -841,8 +779,9 @@ Le MEAE fournit ou fait des crédits des aides aux projets, des aides budgétair
 https://www.publishwhatyoufund.org/the-index/2020/francaise-meae/ 
 
 ---
+## Les têtes de classements
 
-**Les banques, les anglo-saxons**
+**Les banques de développement, les anglo-saxons et l'ONU**
 
 1. AfDB : Banque Africaine de Développement 
 2. World Bank-IDA : International Development Association
@@ -859,7 +798,7 @@ class: inverse, center, top
 background-image: url(https://media.giphy.com/media/vdbrUjzrUEGly/giphy.gif)
 
 
-# À table ! Rendez-vous à 13h30 !
+# À table ! Rendez-vous à 14h00 !
 
 
 ---
@@ -921,9 +860,7 @@ class: inverse, center, middle
 .pull-left[
 
 Vous effectuez un stage de fin d'étude à **l'Ambassade de France en Argentine**. Votre supérieur vous informe que le·a directeur·rice Argentine de l'AFD va changer et que la nouvelle personne en poste va rapidemment prendre contact avec l'ambassadrice (Claudia Scherer-Effosse). 
-**Vous êtes chargé·e de réaliser une note, appuyée sur des données sur l'action de l'AFD en Amérique du Sud.**
-
-**Pour cela, il vous faudra réaliser cette carte : **
+**Vous êtes chargé·e de réaliser une note, appuyée sur des données sur l'action de l'AFD en Amérique du Sud, dans laquelle doit figurer cette carte.**
 
 *Les valeurs correspondent à la moyenne des engagements bruts en millions Euros *
 
@@ -931,9 +868,9 @@ Vous effectuez un stage de fin d'étude à **l'Ambassade de France en Argentine*
 
 .pull-right[
 
-&lt;img src="./img/map.png" height="400"/&gt;
+&lt;img src="./img/carte2023.png" height="400"/&gt;
 
-[Accédez à la carte](https://www.datawrapper.de/_/0etKH/)
+[Accédez à la carte](https://www.datawrapper.de/_/qkgYo/)
 
 ]
 
@@ -1018,9 +955,7 @@ Valable pour tout type de projet, de la brève sur le vote du budget municipal �
 .pull-left[
 
 Vous effectuez un stage de fin d'étude à **l'Ambassade de France en Argentine**. Votre supérieur vous informe que le·a directeur·rice Argentine de l'AFD va changer et que la nouvelle personne en poste va rapidemment prendre contact avec l'ambassadrice (Claudia Scherer-Effosse). 
-**Vous êtes chargé·e de réaliser une note, appuyée sur des données sur l'action de l'AFD en Amérique du Sud.**
-
-**Pour cela, il vous faudra réaliser cette carte : **
+**Vous êtes chargé·e de réaliser une note, appuyée sur des données sur l'action de l'AFD en Amérique du Sud, dans laquelle doit figurer cette carte.**
 
 *Les valeurs correspondent à la moyenne des engagements bruts en millions Euros *
 
@@ -1028,9 +963,9 @@ Vous effectuez un stage de fin d'étude à **l'Ambassade de France en Argentine*
 
 .pull-right[
 
-&lt;img src="./img/map.png" height="400"/&gt;
+&lt;img src="./img/carte2023.png" height="400"/&gt;
 
-[Accédez à la carte](https://www.datawrapper.de/_/0etKH/)
+[Accédez à la carte](https://www.datawrapper.de/_/qkgYo/)
 
 ]
 
@@ -1061,10 +996,10 @@ https://opendata.afd.fr/explore/dataset/donnees-aide-au-developpement-afd/table/
 
 * Etat du projet : Exécution / Achevé
 * Pays de réalisation
-* Région : Amériques
-* Libellé CICID 
+* Région
+* Libellé CICID
 
-**5. Aller dans EXPORT**
+**5. Filtrer les données sur la Région : Amériques**
 
 https://opendata.afd.fr/explore/dataset/donnees-aide-au-developpement-afd/export/?disjunctive.pays_de_realisation&amp;refine.region=Am%C3%A9riques
 
@@ -1075,12 +1010,14 @@ https://opendata.afd.fr/explore/dataset/donnees-aide-au-developpement-afd/export
 
 **7. Ouvrir le fichier dans un tableau**
 
-Google Spreadsheets ou Excel. Psst : https://fr.wikihow.com/ouvrir-un-fichier-CSV 
+Google Spreadsheets, Excel ou LibreOffice Calc. Psst : https://fr.wikihow.com/ouvrir-un-fichier-CSV 
 
-**8. Bien observer les colonnes de données requises pour faire une carte**
+**8. Bien observer les colonnes de données requises pour faire une carte. Ce sont lesquels ?**
+
+--
 
 -&gt; Pays de réalisation
--&gt; Montant
+-&gt; Montant engagements
 
 ---
 
@@ -1098,7 +1035,7 @@ Psst : https://fr.wikihow.com/cr%C3%A9er-un-tableau-crois%C3%A9-dynamique-sous-E
 
 class: center, middle
 
-![](./img/tdc.png)
+![](./img/tdc2023.png)
 
 
 **Ce qu'on veux obtenir**
@@ -1162,34 +1099,16 @@ class: inverse, center, middle
 
 .center[&lt;img src="./img/graph1.png" height="400"/&gt;]
 
+_Les données ont un peu changé._
 ---
 
 ## Exercice 3
 
-#### 5 secteurs d’activités principalement soutenus au Mexique les 3 dernières années
+#### Toujours avec les données IATI, les 5 secteurs d’activités les plus soutenus en 2020 au Mexique, avec une comparaison entre 2018, 2019 et 2020
 
 .center[&lt;img src="./img/ex3.png" height="400"/&gt;]
 
----
-## Mise en situation finale
-
-#### Vous êtes chargé de plaidoyer chez Amnesty International
-
-
-Vous devez rédiger un argumentaire pour nourrir une campagne qui visera à **informer le public sur les ventes illégales d’armes françaises** afin d'obtenir la mise en place d’un contrôle sur ce commerce.
-
-
-Argumentaire : 
-
-&gt; *Nous ne disons pas que toutes les exportations d’armes françaises sont illégales ou que la France fait n’importe quoi tout le temps, mais dans certains cas comme l’Égypte, ou le Yémen, la France ne respecte pas le droit international.*
-
-https://www.amnesty.fr/controle-des-armes 
-
-**Objectiver : **
-
-Pour le prouver, vous devez trouver le montant et le type d’armement exporté par la France au Yémen et au Liban.
-
-
+_Les données ont un peu changé._
 ---
 
 class: inverse, center, middle
