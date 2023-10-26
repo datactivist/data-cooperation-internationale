@@ -101,12 +101,6 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 ---
 
-
-.center[<img src="./img/modulo.png" height="600"/>]
-
-
----
-
 ## Présentations
 
 --
@@ -263,23 +257,27 @@ https://africacheck.org/fr
 
 ---
 
-## 5. Piloter l'action publique par la donnée
+## 5. Gestion des risques et de crises
 
 .center[<img src="./img/meae.png" height="300"/>]
 
-Les missions du CDCS
-
-https://www.diplomatie.gouv.fr/fr/le-ministere-et-son-reseau/le-centre-de-crise-et-de-soutien/accompagner-les-operateurs-de-l-etat-et-les-entreprises/
+[Les missions du CDCS](https://www.diplomatie.gouv.fr/fr/le-ministere-et-son-reseau/le-centre-de-crise-et-de-soutien/accompagner-les-operateurs-de-l-etat-et-les-entreprises/)
 
 ---
 
 
-## 6. Sécurité internationale
+## 6. Sécurité et OSINT
 
 
-.center[<img src="./img/twitter.png" height="400"/>]
+.pull-left[<img src="./img/twitter.png" height="400"/>
 
-https://www.radiofrance.fr/franceculture/twitter-etait-une-plateforme-de-choix-pour-les-djihadistes-7313518
+[Twitter, une plateforme de choix pour les djihadites, _France culture_](https://www.radiofrance.fr/franceculture/twitter-etait-une-plateforme-de-choix-pour-les-djihadistes-7313518)
+]
+
+.pull-right[<img src="./img/osintfr.png" height="400"/>
+
+[Communauté OSINT-FR](https://osintfr.com/fr/accueil/)
+]
 
 ---
 
@@ -803,12 +801,6 @@ background-image: url(https://media.giphy.com/media/vdbrUjzrUEGly/giphy.gif)
 
 
 # À table ! Rendez-vous à 14h00 !
-
-
----
-
-.center[<img src="./img/modulo.png" height="600"/>]
-
 
 ---
 
