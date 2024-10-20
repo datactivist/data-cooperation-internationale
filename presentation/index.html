@@ -3,7 +3,8 @@
   <head>
     <title>Data et politiques de coopération internationale</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Cécile Le Guen, Clément Mandron" />
+    <meta name="author" content="Clément Mandron, Cécile le Guen" />
+    <meta name="date" content="2024-01-01" />
     <script src="libs/header-attrs-2.25/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
@@ -32,8 +33,8 @@
 class: center, middle, inverse, title-slide
 
 # Data et politiques de coopération internationale
-### Cécile Le Guen, Clément Mandron
-### Année universitaire 2023-2024
+### Clément Mandron, Cécile le Guen
+### 2024
 
 ---
 
@@ -101,19 +102,17 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 
 --
 
-1. Vous
-2. Votre futur vous
-3. Vous et la donnée
-4. Vous et ce cours
+1. Prénom
+2. Quel est votre rapport à la donnée (étude, stage, ...) ?
 
 ---
 
 ## Les objectifs de ce cours
 
 **Ce matin : _la théorie_**
-* Découvrir des cas d'usage de l'utilisation des données (ouvertes) dans les politiques de coopération international
-* Comprendre la place de la donnée dans les programmes de développement
-* Découvrir la gouvernance des données autour des données de l'ADP (standard international IATI, portail open data interministériel)
+* Découvrir des cas d'usage de l'utilisation des données dans les politiques de coopération international
+* Comprendre la place de la donnée et de la quantification dans les programmes de développement
+* Découvrir la gouvernance des données autour des données de l'Aide Publique au Développement (standard international IATI, portail open data interministériel)
 
 **Cet après-midi : _la pratique_**
 * Effectuer des datavisualisations simples mais utilisables dans de nombreux contexte : cartographie et infographie
@@ -125,14 +124,11 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 ## Le programme de ce cours
 
 **Ce matin : _la théorie_**
-1. Les données : des enjeux de coopération internationale
-2. Focus : l'aide au développement est-elle efficace ?
+1. Les données : Des enjeux de coopération internationale
+2. Focus : Comment mesurer l'efficacité de l'Aide Publique au Développement ?
 3. Les données (ouvertes) de l’aide au développement
 
-**Cet après-midi : _la pratique_**
-1. Exercice 1
-2. _Exercices bonus_
-3. Mise en sitaution professionnelle
+**Cet après-midi : _la pratique_ !**
 
 ---
 
@@ -152,40 +148,7 @@ Derrière les choix, on trouve des données (PIB, seuil de pauvreté, IDH, Indic
 
 * **Les données sont des vecteurs de la transformation de l'action publique**
 
-Evaluation des politiques publiques et des programmes de développement, dématérialisation de l'administration, identification des personnes, transparence de l'action publique
-
----
-
-## Les données, enjeux de gouvernance
-
-.pull-left[
-Tendre vers la "bonne gouvernance", à partir d'objectifs chiffrés :
-- Plans d’ajustement structurels du FMI
-- PNUD
-- « Objectifs du Millénaire »
-- Objectifs de réduction des gaz à effet de serre du protocole de Kyoto
-- Critères de Maastricht
-- ...
-
-]
-
-.pull-right[
-&lt;img src="./img/supiot.png" height="300"/&gt;
-]
-&gt; [Alain Supiot, La gouvernance par les nombres cours au Collège de France, 2012-2014 (Paris: Institut d’études avancées de Nantes : Fayard, 2015).](https://www.fayard.fr/livre/la-gouvernance-par-les-nombres-9782213681092/)
-
-???
-
-L'OCDE a succédé à l'Organisation européenne de coopération économique (OECE) issue du plan Marshall et de la Conférence des Seize (Conférence de coopération économique européenne) qui a existé de 1948 à 1961. Son but était l'établissement d'une organisation permanente chargée en premier lieu d'assurer la mise en œuvre du programme de relèvement commun (le plan Marshall), et, en particulier, d'en superviser la répartition.
-
-UE : 1992 Maastricht (critère de convergen), puis 2013 Pacte Burdgétaire (objectif d’équilibre ou d’excédent budgétaire, traduit en indicateurs chiffrés, calendrier de réalisation et procédure d’évaluation de sa mise en œuvre.
-
-International :
-- d’une part, sous la forme des objectifs chiffrés assignés aux États par des institutions internationales (plans d’ajustement structurels du FMI, PNUD, « Objectifs du Millénaire ») ou par des conventions internationales (objectifs de réduction des gaz à effet de serre du protocole de Kyoto)
-- d’autre part sous celle des évaluations chiffrées émises par les agences de notation sur les performances et les perspectives financières des États et des entreprises, ainsi que
-sur la confiance qu’on doit accorder aux titres financiers qu’ils émettent.
-
-Source : https://www.college-de-france.fr/sites/default/files/documents/alain-supiot/UPL2335835739398687161_supiot.pdf page 729
+Evaluation des politiques publiques et des programmes de développement, dématérialisation de l'administration, identification des personnes, transparence de l'action publique, améliorer les prises de décisions, etc...
 
 ---
 
@@ -208,7 +171,7 @@ Transports, innovation économique, santé, environnement, lutte contre la corru
 class: inverse, center, middle
 
 
-# Quelques exemples
+# Quelques cas d'usage
 
 ---
 
@@ -219,18 +182,17 @@ class: inverse, center, middle
 
 https://documents1.worldbank.org/curated/fr/134531592556070536/pdf/Open-Data-for-Resilience-Initiative-Planning-and-Open-Cities-Mapping-Project.pdf
 
+???
+
+The World Bank, through its Global Facility for Disaster Reduction and Recovery (GFDRR),
+launched the Open Cities Project in November 2012 to create open data ecosystems that will
+facilitate innovative, data-driven urban planning and disaster risk management in South Asian cities.
+
+Collecter les données ouvertes à partir d'OpenStreetMap pour anticiper les risques et prendre des décisions : montée des eaux (où sont les écoles, et les hopitaux ?), diffusion des épidémies (quelle cartographie des réseaux de distribution d'eau ?), etc...
 
 ---
 
-## 2. Participation citoyenne
-
-.center[&lt;img src="./img/benin.png" height="400"/&gt;]
-
-https://bouba.mondoblog.org/2015/12/28/benin-vote-2016-les-blogueurs-du-benin-se-mobilisent-autour-de-lelection/
-
----
-
-## 3. Transparence de l’action publique
+## 2. Transparence de l’action publique
 
 
 .center[&lt;img src="./img/tchad.png" height="400"/&gt;]
@@ -240,29 +202,23 @@ http://www.observatoire.td/
 
 ---
 
-## 4. Coopération avec les média
-
-Organisation indépendante créée en octobre 2012 par un ancien journaliste de l’AFP. Cette plateforme internet vise à lutter contre les fausses informations qui circulent dans les médias en Afrique et pouvant faire face au refus des institutions et administrations de répondre aux questions des journalistes.
-
-
-.center[&lt;img src="./img/check.png" height="200"/&gt;]
-
-
-https://africacheck.org/fr
-
-
----
-
-## 5. Gestion des risques et de crises
+## 3. Gestion des risques et de crises
 
 .center[&lt;img src="./img/meae.png" height="300"/&gt;]
 
 [Les missions du CDCS](https://www.diplomatie.gouv.fr/fr/le-ministere-et-son-reseau/le-centre-de-crise-et-de-soutien/accompagner-les-operateurs-de-l-etat-et-les-entreprises/)
 
+???
+
+Le Centre de crise et de soutien (CDCS) accompagne les opérateurs interministériels de l’État et les organismes qui contribuent à la coopération internationale de sécurité des ressortissants. Il accompagne également les entreprises françaises déployées à l’étranger pour anticiper et prévenir les enjeux de sécurité
+
+- Partage d'analyse sur la situation sécuritaire des pays
+- L’élaboration de cartes sécuritaires
+
 ---
 
 
-## 6. Sécurité et OSINT
+## 4. Sécurité et OSINT
 
 
 .pull-left[&lt;img src="./img/twitter.png" height="400"/&gt;
@@ -274,6 +230,20 @@ https://africacheck.org/fr
 
 [Communauté OSINT-FR](https://osintfr.com/fr/accueil/)
 ]
+
+---
+
+## 5. Défense des droits des minorités
+
+.center[&lt;img src="./img/lgbt.png" height="300"/&gt;]
+
+[Progressive cash for the anti-LGBTQI backlash?](https://centreforfeministforeignpolicy.org/2023/04/24/report-progressive-cash-for-the-anti-lgbtqi-backlash/)
+
+???
+The Centre for Feminist Foreign Policy is proud to support and host this report from Claire Provost and Nana Darkoa Sekyiamah, the Founding Partners of The Institute for Journalism and Social Change. 
+
+
+It reveals how taxpayers across Europe and North America have been connected – without their knowledge – to anti-LGBTQI religious groups in Uganda. This has happened, at a large scale, despite repeated pledges from these donors (which are all part of the global Equal Rights Coalition) to protect and promote LGBT rights around the world. Some of this funding is ongoing.
 
 ---
 
@@ -309,21 +279,12 @@ Principes
 
 ]
 
-
----
-
-## En France
-
-.center[&lt;img src="./img/go.png" height="400"/&gt;]
-
-La France finit son troisième plan d’action national (2021-2023), qui comrpend ces 6 engagements.
-
 ---
 
 class: inverse, center, middle
 
 
-# 2. Focus : l'aide au développement est-elle efficace ?
+# 2. Focus : Comment mesurer l'efficacité de l'Aide Publique au Développement ?
 
 ---
 ## Définitions
@@ -478,7 +439,7 @@ Il décide de mener son propre programme d’aide au développement :
 .pull-left[
 
 * Chercheuse au MIT et Directrice du [J-PAL (Poverty Action Lab)](https://www.povertyactionlab.org/fr) 
-* Conseillère de Barack Obama
+* Conseillère de nombreux dirigeants
 * Prix de la Banque de Suède à la mémoire d'Alfred Nobel en 2019 
 
 Met le doigt sur les limites des études macro-économiques pour expliquer la baisse de la pauvreté.
@@ -495,6 +456,8 @@ Elle utilise des méthodes économétriques pour **mesurer l’efficacité de l�
 
 ???
 Etudes de Sachs et Easterly mobilisent les mêmes bases de données agrégées avec des indicateurs type PIB, IDH, incidence des épidémies, ...)
+
+Ainsi, William Easterly montre que les pays qui reçoivent plus d’aide ne croissent pas plus rapidement8. Il contredit un article précédent de Craig Burnside et David Dollar – deux économistes de la Banque mondiale – qui montrait au contraire que l’aide était associée à une croissance forte dans les pays où les institutions sont solides9.
 
 https://books.openedition.org/cdf/2693?lang=fr#ftn8
 
@@ -540,6 +503,52 @@ https://books.openedition.org/cdf/2693?lang=fr#ftn8
 [Site du Collège de France](https://www.college-de-france.fr/chaire/esther-duflo-pauvrete-et-politiques-publiques-chaire-statutaire)
 
 ---
+## Les données, un enjeu de gouvernance
+
+
+.pull-left[
+Tendre vers la "bonne gouvernance", à partir d'objectifs chiffrés :
+- Plans d’ajustement structurels du FMI
+- PNUD
+- « Objectifs du Millénaire »
+- Objectifs de réduction des gaz à effet de serre du protocole de Kyoto
+- Critères de Maastricht
+- ...
+
+]
+
+.pull-right[
+&lt;img src="./img/supiot.png" height="300"/&gt;
+]
+&gt; [Alain Supiot, La gouvernance par les nombres cours au Collège de France, 2012-2014 (Paris: Institut d’études avancées de Nantes : Fayard, 2015).](https://www.fayard.fr/livre/la-gouvernance-par-les-nombres-9782213681092/)
+
+???
+
+L'OCDE a succédé à l'Organisation européenne de coopération économique (OECE) issue du plan Marshall et de la Conférence des Seize (Conférence de coopération économique européenne) qui a existé de 1948 à 1961. Son but était l'établissement d'une organisation permanente chargée en premier lieu d'assurer la mise en œuvre du programme de relèvement commun (le plan Marshall), et, en particulier, d'en superviser la répartition.
+
+UE : 1992 Maastricht (critère de convergen), puis 2013 Pacte Burdgétaire (objectif d’équilibre ou d’excédent budgétaire, traduit en indicateurs chiffrés, calendrier de réalisation et procédure d’évaluation de sa mise en œuvre.
+
+International :
+- d’une part, sous la forme des objectifs chiffrés assignés aux États par des institutions internationales (plans d’ajustement structurels du FMI, PNUD, « Objectifs du Millénaire ») ou par des conventions internationales (objectifs de réduction des gaz à effet de serre du protocole de Kyoto)
+- d’autre part sous celle des évaluations chiffrées émises par les agences de notation sur les performances et les perspectives financières des États et des entreprises, ainsi que
+sur la confiance qu’on doit accorder aux titres financiers qu’ils émettent.
+
+Source : https://www.college-de-france.fr/sites/default/files/documents/alain-supiot/UPL2335835739398687161_supiot.pdf page 729x
+
+---
+
+## Adopter un regarde critique : l'approche de la sociologie de la quantification
+
+.center[&lt;img src="./img/quantification.jpg" height="300"/&gt;]
+
+&gt; [Henneguelle, A. et Jatteau, A. (2021). Sociologie de la quantification. ](https://doi.org/10.3917/dec.henne.2021.01)
+
+???
+
+Plus précisement, sur l'ADP 
+https://shs.cairn.info/revue-tiers-monde-2013-1-page-33?lang=fr 
+
+---
 
 ## Aller plus loin
 
@@ -549,7 +558,6 @@ https://books.openedition.org/cdf/2693?lang=fr#ftn8
 .center[![](./img/splash.png)
 
 [Nouvelles Écoutes - Splash](https://nouvellesecoutes.fr/podcast/splash/)
-]
 ]
 
 ---
