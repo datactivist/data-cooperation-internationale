@@ -316,16 +316,6 @@ class: inverse, center, middle
 
 .center[[OCED - Compare your country](https://www1.compareyourcountry.org/dev-coop-profiles-2022/en/1/all/default/all/OECD)]
 
-
-
----
-
-## Trois approches économiques de l'aide publique au développement (APD)
-
-* William Easterly
-* Jeffrey Sachs
-* Esther Duflo
-
 ---
 
 ## Les débats de l’économie de l’APD 
@@ -352,22 +342,6 @@ Les premières questions commencent à se poser envers l’efficacité de l’ai
 * L’impact sur l’investissement national 
 * L’impact sur la croissance économique
 * La réduction des dépenses publiques 
-
----
-## Opposition de 2 figures : deux économistes américains 
-
-1. **William Easterly**, le sceptique
-
-* Économiste de la banque mondiale de 1985 à 2001
-* Spécialiste des économies en voie de développement 
-* Professeur à l’université de New-York
-
-2. **Jeffrey Sachs**, l’optimiste
-
-* Professeur à l’Université de Columbia
-* Consultant auprès du secrétaire général de l’ONU
-* Soutien intellectuel des grands plans de lutte contre la pauvreté
-* Conseiller auprès de la Banque Mondiale, de l’OCDE ou de l’OMS 
 
 ---
 ## William Easterly
